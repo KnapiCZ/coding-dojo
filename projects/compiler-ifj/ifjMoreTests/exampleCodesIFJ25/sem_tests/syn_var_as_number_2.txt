@@ -1,0 +1,6 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var 123 = "fail" // Chyba 2: Očekáván identifikátor, nalezeno číslo
+    }
+}

@@ -1,0 +1,9 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var s
+        s = "Hello, \"IFJ\"\n"
+        s = ""
+        __d = Ifj.write(s)
+    }
+}

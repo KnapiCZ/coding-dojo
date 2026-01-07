@@ -1,0 +1,15 @@
+import "ifj25" for Ifj
+class Program {
+
+static main() {
+    var cmp
+    cmp = Ifj.strcmp("aa","ab")
+    __d = Ifj.write(cmp)       // expect negative (-1)
+    var code
+    code = Ifj.ord("A",0)
+    __d = Ifj.write(code)      // expect ASCII of 'A'
+    var ch
+    ch = Ifj.chr(65)
+    __d = Ifj.write(ch)        // expect "A"
+}
+}

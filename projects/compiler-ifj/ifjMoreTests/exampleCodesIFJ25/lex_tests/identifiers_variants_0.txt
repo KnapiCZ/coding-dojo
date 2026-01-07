@@ -1,0 +1,13 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var a
+        var A_var
+        var a_b_c
+        __global_var = 8
+        a = 1
+        A_var = a
+        a_b_c = A_var
+        __d = Ifj.write("ids")
+    }
+}

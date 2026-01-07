@@ -1,0 +1,8 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+var h
+h = 0xG1
+__d = Ifj.write("bad hex")
+}
+}

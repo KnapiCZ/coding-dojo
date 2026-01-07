@@ -1,0 +1,12 @@
+Tento adresář obsahuje několik příkladů programů napsaných v IFJcode25.
+
+Na Merlinovi lze vyzkoušet příkazem:
+
+/pub/courses/ifj/ifj25/ic25int example.ifjcode
+
+Základní použití interpretu ic25int zjistíte příkazem:
+
+/pub/courses/ifj/ifj25/ic25int --help
+
+Pokud chcete vidět detailnější stavy paměti, tak na zajímavá místa programu v IFJcode24 vložte ladící instrukci BREAK.
+

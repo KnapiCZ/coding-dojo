@@ -1,0 +1,6 @@
+class Program {
+  static main() {
+    var x
+    x = 5
+  }
+}

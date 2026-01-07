@@ -1,0 +1,21 @@
+Outer: 1
+  Inner: i=1 j=1 k=1
+  Inner: i=1 j=1 k=3
+  Inner: i=1 j=2 k=1
+  Inner: i=1 j=2 k=3
+  Inner: i=1 j=3 k=1
+  Inner: i=1 j=3 k=3
+Outer: 2
+  Inner: i=2 j=1 k=1
+  Inner: i=2 j=1 k=3
+  Inner: i=2 j=2 k=1
+  Inner: i=2 j=3 k=1
+  Inner: i=2 j=3 k=3
+Outer: 3
+  Inner: i=3 j=1 k=1
+  Inner: i=3 j=1 k=3
+  Inner: i=3 j=2 k=1
+  Inner: i=3 j=2 k=3
+  Inner: i=3 j=3 k=1
+  Inner: i=3 j=3 k=3
+Final count: 17

@@ -1,0 +1,14 @@
+// Syntax error: Lowercase type in is operator
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 42
+        
+        if (x is num) {  // ERROR: should be Num (capitalized)
+            __a = Ifj.write("Number\n")
+        } else {
+            __a = Ifj.write("Not number\n")
+        }
+    }
+}

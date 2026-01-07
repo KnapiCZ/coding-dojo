@@ -1,0 +1,12 @@
+// Syntax error: Missing closing brace for if statement
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 10
+        if (x > 5) {
+            __a = Ifj.write("Greater\n")
+        // ERROR: missing closing }
+        __a = Ifj.write("Done\n")
+    }
+}

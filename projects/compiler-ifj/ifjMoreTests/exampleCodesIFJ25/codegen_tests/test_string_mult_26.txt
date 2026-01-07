@@ -1,0 +1,9 @@
+import "ifj25" for Ifj
+class Program {
+    static main(){
+        var x
+        x = "testing"
+        __y = "5"
+        __x = x * __y // Cannot multiply string with string!
+    }
+}

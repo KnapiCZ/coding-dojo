@@ -1,0 +1,8 @@
+import "ifj25" for Ifj
+class Program {
+    static foo() {
+        var x
+        x = 1
+    }
+    // Chyba 3: v programu chybí funkce main
+}

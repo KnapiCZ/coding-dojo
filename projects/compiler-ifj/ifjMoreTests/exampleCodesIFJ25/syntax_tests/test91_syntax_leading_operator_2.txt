@@ -1,0 +1,10 @@
+// Syntax error: Leading operator (not unary minus)
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = * 5  // ERROR: * cannot be unary
+        __a = Ifj.write(x)
+        __a = Ifj.write("\n")
+    }
+}

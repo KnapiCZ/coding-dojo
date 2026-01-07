@@ -1,0 +1,8 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+var h
+h = 0X1A
+__d = Ifj.write("hex X ok")
+}
+}

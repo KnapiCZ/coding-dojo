@@ -1,0 +1,6 @@
+import "ifj25" for Ifj
+
+class Program {
+  static main() {
+    __a = Ifj.write("Ahoj svete") } // prikaz volani funkce neni zakoncen novym radkem
+}

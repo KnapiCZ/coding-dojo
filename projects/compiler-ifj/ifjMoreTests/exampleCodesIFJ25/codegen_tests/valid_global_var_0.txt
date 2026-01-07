@@ -1,0 +1,10 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        __glob = 42
+        __d = printGlob()
+    }
+    static printGlob() {
+        __d = Ifj.write(__glob)
+    }
+}

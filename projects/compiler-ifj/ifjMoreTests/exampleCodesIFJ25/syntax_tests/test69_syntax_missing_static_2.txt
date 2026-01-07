@@ -1,0 +1,10 @@
+// Syntax error: Missing static keyword
+import "ifj25" for Ifj
+class Program {
+    main() {  // ERROR: missing static keyword
+        var x 
+        x = 5
+        __a = Ifj.write(x)
+        __a = Ifj.write("\n")
+    }
+}

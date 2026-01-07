@@ -1,0 +1,4 @@
+false
+true
+Correct: !true is false
+Correct: !false is true

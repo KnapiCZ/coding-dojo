@@ -1,0 +1,13 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+var i
+var f
+var h
+i = 123
+f = 3.1415
+f = 1e3
+h = 0x1A3f
+__d = Ifj.write("nums")
+}
+}

@@ -1,0 +1,9 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        // Relační operátory <, >, <=, >= vyžadují Num na obou stranách
+        if (10 < "20") { // Chyba 6
+        } else {
+        }
+    }
+}

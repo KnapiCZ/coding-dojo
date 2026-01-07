@@ -1,0 +1,9 @@
+import "ifj25" for Ifj
+class Program {
+   static main() {
+      // this is a line comment
+      var a
+      a = "\\x00\\xFF\\x7F"
+      __d = Ifj.write(a)
+   }
+}

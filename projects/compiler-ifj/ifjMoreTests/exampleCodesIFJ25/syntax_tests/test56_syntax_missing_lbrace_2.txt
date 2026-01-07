@@ -1,0 +1,10 @@
+// Syntax error: Missing opening brace for function
+import "ifj25" for Ifj
+class Program {
+    static main()  // ERROR: missing {
+        var x 
+        x = 5
+        __a = Ifj.write(x)
+        __a = Ifj.write("\n")
+    }
+}

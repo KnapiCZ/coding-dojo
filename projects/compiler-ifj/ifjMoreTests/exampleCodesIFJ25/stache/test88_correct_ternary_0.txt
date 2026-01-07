@@ -1,0 +1,19 @@
+// Correct: Ternary operator
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 5
+        var result 
+        result = x > 3 ? 10 : 20
+        Ifj.write("Result: ")
+        Ifj.write(result)
+        Ifj.write("\n")
+        
+        var min 
+        min = (x < 10) ? x : 10
+        Ifj.write("Min: ")
+        Ifj.write(min)
+        Ifj.write("\n")
+    }
+}

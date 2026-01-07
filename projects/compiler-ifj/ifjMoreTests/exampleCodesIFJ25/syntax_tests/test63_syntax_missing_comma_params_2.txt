@@ -1,0 +1,14 @@
+// Syntax error: Invalid parameter syntax (missing comma)
+import "ifj25" for Ifj
+class Program {
+    static add(a b) {  // ERROR: missing comma between parameters
+        return a + b
+    }
+    
+    static main() {
+        var result 
+        result = add(5, 3)
+        __a = Ifj.write(result)
+        __a = Ifj.write("\n")
+    }
+}

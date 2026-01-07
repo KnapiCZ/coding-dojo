@@ -1,0 +1,12 @@
+// Syntax error: Double minus operator
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 5
+        var result 
+        result = x -- 2  // ERROR: -- is invalid (should be single -)
+        __a = Ifj.write(result)
+        __a = Ifj.write("\n")
+    }
+}

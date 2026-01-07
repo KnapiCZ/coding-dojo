@@ -1,0 +1,6 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var class = 10 // Chyba 2: 'class' je klíčové slovo
+    }
+}

@@ -1,0 +1,8 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+var s
+s = "this string is not closed
+__d = Ifj.write("never")
+}
+}

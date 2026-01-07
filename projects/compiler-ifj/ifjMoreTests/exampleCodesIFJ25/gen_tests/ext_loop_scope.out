@@ -1,0 +1,6 @@
+Outer i before: 999
+  Inner i: 1, temp: 10
+  Inner i: 2, temp: 20
+  Inner i: 3, temp: 30
+Outer i after: 999
+Total sum: 60

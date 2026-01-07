@@ -1,0 +1,6 @@
+a && c is true
+a && b is false
+a || b is true
+b || false is false
+(a && c) || b is true
+a && (b || c) is true

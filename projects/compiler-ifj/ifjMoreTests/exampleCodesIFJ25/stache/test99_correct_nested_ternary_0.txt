@@ -1,0 +1,24 @@
+// Correct: Nested ternary operators
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 5
+        var y 
+        y = 10
+        var z 
+        z = 3
+        
+        var max 
+        max = (x > y) ? ((x > z) ? x : z) : ((y > z) ? y : z)
+        Ifj.write("Max: ")
+        Ifj.write(max)
+        Ifj.write("\n")
+        
+        var result 
+        result = x > 3 ? (y < 15 ? 1 : 2) : (z > 2 ? 3 : 4)
+        Ifj.write("Nested result: ")
+        Ifj.write(result)
+        Ifj.write("\n")
+    }
+}

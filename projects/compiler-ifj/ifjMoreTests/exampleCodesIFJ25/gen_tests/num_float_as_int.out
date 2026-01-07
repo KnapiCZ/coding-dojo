@@ -1,0 +1,4 @@
+Chr(65.0): A
+Substring(0.0, 5.0): Hello
+Ord('e'): 101
+5 == 5.0 is true

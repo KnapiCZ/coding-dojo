@@ -1,0 +1,11 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+// this is a line comment
+/* outer comment
+   /* nested comment */
+   continue outer
+*/
+__d = Ifj.write("comments ok")
+}
+}

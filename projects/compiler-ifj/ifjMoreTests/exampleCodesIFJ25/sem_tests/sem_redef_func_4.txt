@@ -1,0 +1,11 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+    }
+
+    static foo(x) {
+    }
+
+    static foo(y) {
+    } // Chyba 4: funkce foo s 1 parametrem již existuje
+}

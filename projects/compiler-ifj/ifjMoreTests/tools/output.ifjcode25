@@ -1,0 +1,76 @@
+.IFJcode25
+JUMP $$main_entry
+
+LABEL main$0
+CREATEFRAME
+PUSHFRAME
+
+
+DEFVAR LF@s1$1
+MOVE LF@s1$1 nil@nil
+PUSHS string@Hello
+POPS LF@s1$1
+
+DEFVAR LF@s2$1
+MOVE LF@s2$1 nil@nil
+PUSHS string@\032World
+POPS LF@s2$1
+
+DEFVAR LF@s3$1
+MOVE LF@s3$1 nil@nil
+PUSHS LF@s1$1
+PUSHS LF@s2$1
+CREATEFRAME
+PUSHFRAME
+DEFVAR LF@$$tmp_0$1
+DEFVAR LF@$$tmp_1$1
+DEFVAR LF@$$tmp_2$1
+DEFVAR LF@$$tmp_3$1
+POPS LF@$$tmp_0$1
+POPS LF@$$tmp_1$1
+TYPE LF@$$tmp_2$1 LF@$$tmp_0$1
+TYPE LF@$$tmp_3$1 LF@$$tmp_1$1
+JUMPIFNEQ $not_str_1 LF@$$tmp_3$1 string@string
+JUMPIFNEQ $not_str_1 LF@$$tmp_2$1 string@string
+CONCAT LF@$$tmp_1$1 LF@$$tmp_1$1 LF@$$tmp_0$1
+PUSHS LF@$$tmp_1$1
+JUMP $op_end_0
+LABEL $not_str_1
+JUMPIFEQ $op_flt_2 LF@$$tmp_3$1 string@float
+JUMPIFEQ $op_flt_2 LF@$$tmp_2$1 string@float
+LABEL $op_int_3
+PUSHS LF@$$tmp_1$1
+PUSHS LF@$$tmp_0$1
+ADDS
+JUMP $op_end_0
+LABEL $op_flt_2
+JUMPIFEQ $a_ok_4 LF@$$tmp_3$1 string@float
+INT2FLOAT LF@$$tmp_1$1 LF@$$tmp_1$1
+LABEL $a_ok_4
+JUMPIFEQ $b_ok_5 LF@$$tmp_2$1 string@float
+INT2FLOAT LF@$$tmp_0$1 LF@$$tmp_0$1
+LABEL $b_ok_5
+PUSHS LF@$$tmp_1$1
+PUSHS LF@$$tmp_0$1
+ADDS
+LABEL $op_end_0
+POPFRAME
+POPS LF@s3$1
+
+DEFVAR LF@$$tmp_4$1
+MOVE LF@$$tmp_4$1 LF@s3$1
+WRITE LF@$$tmp_4$1
+PUSHS nil@nil
+POPS GF@__d
+
+PUSHS nil@nil
+POPFRAME
+RETURN
+
+EXIT int@0
+
+LABEL $$main_entry
+DEFVAR GF@__d
+MOVE GF@__d nil@nil
+CALL main$0
+EXIT int@0

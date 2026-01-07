@@ -1,0 +1,13 @@
+// Syntax error: Missing condition in while
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var i 
+        i = 0
+        while () {  // ERROR: missing condition
+            __a = Ifj.write(i)
+            __a = Ifj.write("\n")
+            i = i + 1
+        }
+    }
+}

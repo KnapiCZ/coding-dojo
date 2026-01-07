@@ -1,0 +1,10 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+    }
+
+    static foo(param) {
+        var param // Chyba 4: kolize jména lokální proměnné a parametru
+        param = 10
+    }
+}

@@ -1,0 +1,9 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+        var z
+        z = 00000.000000
+        z = 000123123123000
+        z = 000123.123000000
+    }
+}

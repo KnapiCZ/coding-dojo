@@ -1,0 +1,13 @@
+// Syntax error: Missing else block opening brace
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 10
+        if (x > 5) {
+            __a = Ifj.write("Greater\n")
+        } else  // ERROR: missing {
+            __a = Ifj.write("Smaller\n")
+        }
+    }
+}

@@ -1,0 +1,11 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+/* level1
+   /* level2
+      /* level3 */
+   */
+*/
+__d = Ifj.write("deep comments ok")
+}
+}

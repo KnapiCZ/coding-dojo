@@ -1,0 +1,8 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+/* an open block comment
+   /* nested still open
+__d = Ifj.write("after")
+}
+}

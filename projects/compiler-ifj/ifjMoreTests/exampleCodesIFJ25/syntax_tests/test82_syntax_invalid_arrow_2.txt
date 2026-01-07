@@ -1,0 +1,10 @@
+// Syntax error: Arrow operator (not supported)
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 5 => 10  // ERROR: => is not a valid operator
+        __a = Ifj.write(x)
+        __a = Ifj.write("\n")
+    }
+}

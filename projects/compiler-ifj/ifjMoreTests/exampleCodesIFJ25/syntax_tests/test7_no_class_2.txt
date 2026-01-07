@@ -1,0 +1,6 @@
+import "ifj25" for Ifj
+
+static main() {   // main musí být uvnitř class Program
+  var a
+  a = 5
+}

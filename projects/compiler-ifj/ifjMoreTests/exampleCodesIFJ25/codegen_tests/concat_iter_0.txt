@@ -1,0 +1,13 @@
+import "ifj25" for Ifj
+class Program {
+
+static main() {
+    var s
+    s = "ab" + "c"
+    __d = Ifj.write(s)     // expect "abc"
+    var t
+    t = "x" * 3
+    __d = Ifj.write(t)     // expect "xxx"
+
+    }
+}

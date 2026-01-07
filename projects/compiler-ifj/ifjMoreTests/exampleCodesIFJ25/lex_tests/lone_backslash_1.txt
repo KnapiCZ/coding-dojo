@@ -1,0 +1,9 @@
+\
+import "ifj25" for Ifj
+    class Program {
+    static main() {
+    var s
+    s = "ends with backslash\\
+    __d = Ifj.write("after")
+    }
+    }

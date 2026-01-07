@@ -1,0 +1,13 @@
+// Syntax error: Invalid if condition (missing closing paren)
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 10
+        if (x > 5 {  // ERROR: missing )
+            __a = Ifj.write("Greater\n")
+        } else {
+            __a = Ifj.write("Smaller\n")
+        }
+    }
+}

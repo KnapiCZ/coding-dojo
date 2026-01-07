@@ -1,0 +1,9 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var a
+        a = 10
+        var b
+        b = a + c // Chyba 3: proměnná 'c' není definována
+    }
+}

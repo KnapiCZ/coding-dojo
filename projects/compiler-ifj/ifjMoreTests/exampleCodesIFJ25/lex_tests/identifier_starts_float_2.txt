@@ -1,0 +1,8 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var 1.0abc
+        1abc = 5
+        __d = Ifj.write("bad id")
+    }
+}

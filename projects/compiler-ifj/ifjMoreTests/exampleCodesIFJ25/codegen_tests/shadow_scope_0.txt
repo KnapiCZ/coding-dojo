@@ -1,0 +1,15 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var a
+        a = "outer"
+        if (1) {
+            var a
+            a = "inner"
+            __d = Ifj.write(a)   // prints "inner"
+        } else{
+
+        }
+        __d = Ifj.write(a)     // prints "outer"
+    }
+}

@@ -1,0 +1,10 @@
+// Syntax error: Consecutive operators
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 5 * * 3  // ERROR: ** not supported
+        __a = Ifj.write(x)
+        __a = Ifj.write("\n")
+    }
+}

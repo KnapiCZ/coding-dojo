@@ -1,0 +1,13 @@
+import "ifj25" for Ifj
+class Program {
+
+static main() {
+    var a
+    var b
+    var c
+    a = 1.5
+    b = 2.5
+    c = a + b
+    __d = Ifj.write(c)    // float result, interpreter prints floats with %a
+    }
+}

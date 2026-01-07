@@ -1,0 +1,9 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+        var z
+        z = 0.0
+        z = 0e0
+        __d = Ifj.write("zero float ok")
+    }
+}

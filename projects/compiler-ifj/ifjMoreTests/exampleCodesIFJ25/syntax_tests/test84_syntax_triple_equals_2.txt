@@ -1,0 +1,13 @@
+// Syntax error: Triple equals
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 5
+        if (x === 5) {  // ERROR: === not supported
+            __a = Ifj.write("Equal\n")
+        } else {
+            __a = Ifj.write("Not equal\n")
+        }
+    }
+}

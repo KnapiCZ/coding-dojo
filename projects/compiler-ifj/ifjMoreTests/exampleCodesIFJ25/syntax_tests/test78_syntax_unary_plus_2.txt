@@ -1,0 +1,10 @@
+// Syntax error: Unary plus (not supported)
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = +42  // ERROR: unary + not supported
+        __a = Ifj.write(x)
+        __a = Ifj.write("\n")
+    }
+}

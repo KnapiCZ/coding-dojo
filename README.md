@@ -4,8 +4,9 @@ Central hub for my projects, experiments, and code snippets. Some are production
 
 ---
 
-## 🛠️ Real World Projects
-Stuff that actually runs in production and solves real problems.
+## 🚀 Production & Client Work
+**Real-world solutions currently in use.**
+These projects solve actual business problems and run in production environments.
 
 ### [Saunadomek Rakovec](https://saunadomekrakovec.cz/)
 **Wellness reservation system & Coupon management.**
@@ -25,6 +26,29 @@ Focus on accessibility and clarity for a non-profit organization.
 * **Stack:** WordPress
 * **Focus:** Informative structure and ease of use for the client.
 
+---
+
+## 🧪 Engineering Labs & Academics
+**From complex systems to simple experiments.**
+A diverse collection of projects built for educational purposes and personal growth. Ranges from **technically challenging engineering** (like compilers) to **simple design practice** and frontend explorations.
+
+### [GymSpace](https://gymspace.cz) (to be added)
+**Fitness Platform Prototype.**
+Originally a school team project evolved into a personal full-stack showcase. GymSpace goes beyond standard workout tracking—it builds local communities and lets gyms battle for dominance in fitness challenges.
+* **Stack:** VueJS, Django REST
+* **The Challenge:** Complex relation handling between users, gyms, divisions and challenges.
+
+### Compiler IFJ
+**Easy compiler IFJ25 Compiler**
+Compiler that handles compiling from IFJ25(Wren like language) to IFJ25Code(assembly like language)**
+* **Stack:** C
+* **Focus:** Understanding how compilers work and how to create one from language description
+
+### [Johny Depp Website](https://johnny-depp-vut.netlify.app/)
+**Simple website about person**
+Clean and working website featuring johny depps work and blah blah
+* **Stack:** HTML, CSS, JS
+* **Focus:** Practise basics and learn how to use grid and row and column
 ---
 
 ## 🥋 The Dojo (Snippets & Katas)

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of the page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Zen+Kaku+Gothic+Antique&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Johnny Depp</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="./script/script.js" defer></script>
+</head>
+
+<body>
+    <button class="scroll-to-top" onclick="scrollToHome()" title="Go to top">
+
+        <img src="./images/arrow.jpg" alt="arrow to top">
+    </button>
+    <header id="home">
+        <div class="navigation flex-row ">
+            <a href="https://johnny-depp-vut.netlify.app/" target="_blank" class="animate-left">
+                <img src="./images/signature.png" alt="Johny Depp Signature" class="signature hover-transform">
+            </a>
+            <button id="hamburger-menu" class="hidden" onclick="openMenu()"><i class="fa fa-bars"></i></button>
+            <menu id="hamburger-links" class="flex-row animate-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#my-career">My Career</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </menu>
+            <button class="contact-button hover-transform flex-default animate-right"
+                onclick="scrollToContacts()">Contact</button>
+        </div>
+        <div class="flex-row hero">
+            <div class="flex-column hero-text animate-left">
+                <a href="https://johnny-depp-vut.netlify.app/" target="_blank">
+                    <h1>Johnny Depp</h1>
+                </a>
+                <p>Actor & Artist & Musician</p>
+
+            </div>
+            <img src="./images/hero-image.jpg" alt="Johny Depp" class="profile animate-right">
+        </div>
+    </header>
+    <main>
+        <section id="about" class="flex-row">
+            <div class="about-text flex-column">
+                <h2>about me</h2>
+                <p>
+                    Hi, I'm Johnny Depp. People know me for playing many unique characters in movies. I've been
+                    acting
+                    for over 30 years, and I always try to do something different and interesting with my roles,
+                    from
+                    strange and fantasy characters to more serious ones. Besides acting, I also play music (guitar!)
+                    and
+                    paint. I really care about being creative and trying to understand the characters I play.
+                    Because of
+                    this, many people see me as a well-known actor.
+                </p>
+            </div>
+            <img src="./images/johnny-depp-about-2-removebg-preview.png" alt="About Johnny Depp" class="about-image">
+        </section>
+        <section id="my-career">
+            <h2>My career</h2>
+            <div class="grid-container">
+                <div class="film-card flex-column hover-transform">
+                    <h3>Pirates of Caribbean</h3>
+                    <div class="flex-column other-info">
+                        <p>Character: Captain Jack Sparrow</p>
+                        <p>Year: 2003</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    </div>
+                </div>
+                <div class="film-card flex-column hover-transform">
+                    <h3>Edward Scissorhands</h3>
+                    <div class="flex-column other-info">
+                        <p>Character: Edward</p>
+                        <p>Year: 1990</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    </div>
+                </div>
+                <div class="film-card flex-column hover-transform">
+                    <h3>Willy Wonka</h3>
+                    <div class="flex-column other-info">
+                        <p>Character: Willy Wonka</p>
+                        <p>Year: 2005</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    </div>
+                </div>
+                <div class="film-card flex-column hover-transform">
+                    <h3>Fantastic Beasts</h3>
+                    <div class="flex-column other-info">
+                        <p>Character: Grindelwald</p>
+                        <p>Year: 2016</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="other-work">
+                <h3>Other Work</h3>
+                <p>
+                    I have also worked as a producer and director, contributing to various projects behind the camera.
+                </p>
+                <p>
+                    I have worked with famous directors like Tim Burton and Gore Verbinski, creating a unique style of
+                    filmmaking.
+                </p>
+                <p>
+                    I'm not just a filmmaker. I'm also a musician. I've played with bands like The Hollywood Vampires.
+                </p>
+                <p>
+                    I love art and have shown my paintings and sculptures in galleries around the world.
+                </p>
+                <p>
+                    I have also been involved in various charity efforts, supporting causes like children's hospitals
+                    and protecting the environment.
+                </p>
+            </div>
+        </section>
+        <section id="awards" class="flex-row">
+            <h2>Awards</h2>
+            <ul>
+                <li>Golden Globe Award (Best Actor for Sweeney Todd)</li>
+                <li>Screen Actors Guild Award (Best Actor for Pirates of the Caribbean)</li>
+                <li>Nominated for Academy Awards (Oscars) a few times</li>
+                <li>Honorary César Award (that's a French award)</li>
+                <li>MTV Generation Award</li>
+                <li>Lots of People's Choice and Teen Choice Awards</li>
+            </ul>
+        </section>
+        <section id="skills" class="flex-column">
+            <h2>Skills & Interests</h2>
+            <div class="flex-row skill-category background-overlay">
+                <div class="flex-column skill-description ">
+                    <h3>Acting Skills</h3>
+                    <p>As an actor, I have developed a wide range of skills that allow me to portray characters
+                        authentically and effectively.</p>
+                </div>
+                <ul>
+                    <li>Improvisation</li>
+                    <li>Emotional Depth</li>
+                    <li>Versatile Acting</li>
+                    <li>Method Acting Techniques</li>
+                    <li>Physicality in Performance</li>
+                    <li>Research & Transformation</li>
+                </ul>
+            </div>
+            <div class="flex-row skill-category background-overlay">
+                <div class="flex-column skill-description ">
+                    <h3>Artistic Skills</h3>
+                    <p>In addition to my acting career, I have a passion for the arts that extends beyond the screen.
+                    </p>
+                </div>
+                <ul>
+                    <li>Painting</li>
+                    <li>Calligraphy</li>
+                    <li>Photography</li>
+                    <li>Music Composition</li>
+                </ul>
+            </div>
+            <div class="flex-row skill-category background-overlay">
+                <div class="flex-column skill-description ">
+                    <h3>Musical Skills</h3>
+                    <p>Music is a significant part of my life, and I have honed my musical skills over the years.</p>
+                </div>
+                <ul>
+                    <li>Guitar Playing</li>
+                    <li>Songwriting</li>
+                    <li>Vocal Performance</li>
+                    <li>Collaboration with Musicians</li>
+                    <li>Live Performances</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <footer id="contact">
+        <div class="flex-row">
+            <h2>Contact</h2>
+            <form action="" class="flex-column">
+                <p>If you want to get in touch, please reach out via email:</p>
+                <div class="flex-row">
+                </div>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="email" placeholder="Surname" required>
+                <textarea id="message" name="message" rows="4" placeholder="Message..." required></textarea>
+
+                <button type="submit">Submit <i class="fas fa-check"></i></button>
+            </form>
+        </div>
+        <p>&copy; 2025 Filip Knapo, Educational purpose only.</p>
+    </footer>
+</body>
+
+</html>

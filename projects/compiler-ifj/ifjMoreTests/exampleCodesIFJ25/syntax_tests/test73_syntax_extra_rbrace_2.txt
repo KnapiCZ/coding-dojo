@@ -1,0 +1,11 @@
+// Syntax error: Extra closing brace
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 5
+        __a = Ifj.write(x)
+        __a = Ifj.write("\n")
+    }
+}
+}  // ERROR: extra closing brace

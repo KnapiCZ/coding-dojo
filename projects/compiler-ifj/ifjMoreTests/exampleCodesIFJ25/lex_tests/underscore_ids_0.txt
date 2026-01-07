@@ -1,0 +1,9 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var tmp__
+        tmp__ = 5
+        __glob = tmp__
+        __d = Ifj.write("underscores ok")
+    }
+}

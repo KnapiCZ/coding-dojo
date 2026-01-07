@@ -1,0 +1,13 @@
+// Correct: complex expression mixing globals
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        __gX = 5
+        __gY = 8
+        __gZ = 2
+        var val
+        val = (__gX * (__gY - __gZ) + (__gX ? __gY : __gZ)) / 3
+        Ifj.write(val)
+        Ifj.write("\n")
+    }
+}

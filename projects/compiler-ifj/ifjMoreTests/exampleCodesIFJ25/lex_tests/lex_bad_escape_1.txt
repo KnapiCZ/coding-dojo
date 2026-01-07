@@ -1,0 +1,7 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var s
+        s = "Bad escape sequence: \y " // Chyba 1: \y není platná escape sekvence
+    }
+}

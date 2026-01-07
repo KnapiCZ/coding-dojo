@@ -1,0 +1,7 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x
+        x = "text" + 10 // Chyba 6: nelze sčítat String a Num
+    }
+}

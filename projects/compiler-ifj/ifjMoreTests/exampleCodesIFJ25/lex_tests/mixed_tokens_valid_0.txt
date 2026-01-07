@@ -1,0 +1,12 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var a
+        a = 0xFF + 42 - 3.14e2
+        if (a > 0) {
+            __d = 4
+        } else {
+        }
+    }
+}
+

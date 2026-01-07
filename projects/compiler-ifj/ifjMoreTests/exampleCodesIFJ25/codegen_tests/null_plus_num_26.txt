@@ -1,0 +1,15 @@
+import "ifj25" for Ifj
+class Program {
+
+static main() {
+    var x
+    x = retNull()
+    var y
+    y = x + 1
+    __d = Ifj.write(y)
+}
+
+    static retNull() {
+        return null
+    }
+}

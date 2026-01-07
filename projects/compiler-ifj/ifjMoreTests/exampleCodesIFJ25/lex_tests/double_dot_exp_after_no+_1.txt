@@ -1,0 +1,8 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x
+        x = 12E.3
+        __d = Ifj.write("two dots")
+    }
+}

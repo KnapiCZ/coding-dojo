@@ -1,0 +1,10 @@
+// Semantic error: String division
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var idk
+        var out
+
+        out = 2 - "str"
+    }
+}

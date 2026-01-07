@@ -1,0 +1,29 @@
+
+1. **Header**  
+    - Links: home, contact, my work, awards
+    - Name: Johny Depp  
+
+2. **Contact Information**  
+    - Email  
+    - Phone  
+    - Address  
+
+3. **Professional Summary**  
+    - Brief summary of skills, experience, and achievements  
+
+4. **Skills**  
+    - List of skills  
+
+5. **Work Experience**  
+    - Job Title 1  
+      - Company Name, Location  
+      - Start Date - End Date  
+      - Key responsibilities and achievements  
+    - Job Title 2  
+      - Company Name, Location  
+      - Start Date - End Date  
+      - Key responsibilities and achievements  
+
+6. **Awards**  
+    - Degree  
+      - Institution Name, Location

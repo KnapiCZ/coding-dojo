@@ -1,0 +1,17 @@
+// Correct: Unary minus operator
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = -42
+        Ifj.write("Negative: ")
+        Ifj.write(x)
+        Ifj.write("\n")
+        
+        var y 
+        y = -x
+        Ifj.write("Positive: ")
+        Ifj.write(y)
+        Ifj.write("\n")
+    }
+}

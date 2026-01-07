@@ -1,0 +1,7 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x
+        x = "a" / "b" // Chyba 6: dělení není definováno pro String
+    }
+}

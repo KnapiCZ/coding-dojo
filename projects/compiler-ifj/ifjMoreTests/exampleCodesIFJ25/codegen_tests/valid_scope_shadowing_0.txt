@@ -1,0 +1,14 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x
+        x = 10
+        if (x > 5) {
+            var x
+            x = "inner scope" // Validní shadowing
+            __d = Ifj.write(x)
+        } else {
+        }
+        __d = Ifj.write(x) // Zde x je opět 10
+    }
+}

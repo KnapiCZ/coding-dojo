@@ -1,0 +1,25 @@
+import "ifj25" for Ifj
+class Program {
+
+static main() {
+    var n
+    var res
+    n = 5
+    res = factorial(n)
+    __d = Ifj.write(res)
+}
+
+static factorial(x) {
+    var r
+    if (x < 2) {
+        r = 1
+    } else {
+        var y
+        y = x - 1
+        r = factorial(y)
+        r = x * r
+    }
+    return r
+}
+
+}

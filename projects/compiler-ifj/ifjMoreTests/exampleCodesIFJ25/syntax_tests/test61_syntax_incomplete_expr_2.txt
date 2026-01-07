@@ -1,0 +1,10 @@
+// Syntax error: Invalid expression - missing operand
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        var x 
+        x = 5 +  // ERROR: missing right operand
+        __a = Ifj.write(x)
+        __a = Ifj.write("\n")
+    }
+}

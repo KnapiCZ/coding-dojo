@@ -1,0 +1,10 @@
+import "ifj25" for Ifj
+class Program {
+    static main() {
+        __d = test(1, 2, 3) // Chyba 5: funkce očekává 2 parametry, dostala 3
+    }
+
+    static test(a, b) {
+        return a + b
+    }
+}

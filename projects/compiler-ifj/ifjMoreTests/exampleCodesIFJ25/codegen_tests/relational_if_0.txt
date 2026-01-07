@@ -1,0 +1,14 @@
+import "ifj25" for Ifj
+class Program {
+
+static main() {
+    var a
+    a = 10
+    if (a < 20) {
+        __d = Ifj.write("lt")
+    } else {
+        __d = Ifj.write("ge")
+    }
+
+    }
+}

@@ -1,0 +1,8 @@
+import "ifj25" for Ifj
+class Program {
+static main() {
+var f
+f = 6.02e-23
+__d = Ifj.write("neg exp ok")
+}
+}

@@ -1,0 +1,14 @@
+// Syntax error: Missing closing parenthesis in function call
+import "ifj25" for Ifj
+class Program {
+    static calculate(x) {
+        return x * 2
+    }
+    
+    static main() {
+        var result 
+        result = calculate(5  // ERROR: missing )
+        __a = Ifj.write(result)
+        __a = Ifj.write("\n")
+    }
+}
